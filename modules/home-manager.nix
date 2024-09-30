@@ -22,12 +22,6 @@
     };
 
     packages = with pkgs; [
-      # FROM OVERLAYS
-
-      # nvim
-      configured-nvim
-      configured-nvim-deps
-
       # FROM NIXPKGS
       ripgrep
       curl
