@@ -13,16 +13,6 @@ _: {
 
     masApps = {};
     casks = [
-      "arc"
-      "discord"
-      "visual-studio-code"
-      "zoom"
-      "affinity-designer"
-      "cleanmymac"
-      "raycast"
-      "obsidian"
-      "docker"
-      "karabiner-elements"
       "kitty"
     ];
     taps = [];
