@@ -43,6 +43,7 @@
       gdmb = "git branch --merged | grep -Ev '(^\\*|main)' | xargs git branch -d";
       gbsc = "git branch --sort=-committerdate";
       reload = "source ~/.config/zsh/.zshrc";
+      zed = "open -a /Applications/Zed.app -n";
     };
 
     initExtraBeforeCompInit = ''
