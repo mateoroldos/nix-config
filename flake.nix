@@ -38,7 +38,7 @@
           home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;
-            users.mateo.imports = [./modules/home-manager.nix];
+            users.mateoroldos.imports = [./modules/home-manager.nix];
             extraSpecialArgs = {
               inherit inputs;
             };
