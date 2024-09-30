@@ -25,7 +25,7 @@
   } @ inputs: {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#Ethans-MacBook-Pro
-    darwinConfigurations."MacBook_Air_de_Mateo" = darwin.lib.darwinSystem {
+    darwinConfigurations."MacBook-Air-de-Mateo" = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       pkgs = import nixpkgs {
         system = "aarch64-darwin";
@@ -50,6 +50,6 @@
     };
 
     # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations."MacBook_Air_de_Mateo".pkgs;
+    darwinPackages = self.darwinConfigurations."MacBook-Air-de-Mateo".pkgs;
   };
 }

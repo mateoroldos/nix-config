@@ -26,6 +26,7 @@
       ripgrep
       curl
       less
+      eza
       git
       nodejs_22
       wifi-password
