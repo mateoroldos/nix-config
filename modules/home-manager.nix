@@ -34,7 +34,6 @@
       git
       nodejs_22
       wifi-password
-      zsh-powerlevel10k
       zoxide
       lazygit
       nodePackages.prettier
