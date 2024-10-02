@@ -22,6 +22,10 @@
     };
 
     packages = with pkgs; [
+      # nvim
+      configured-nvim
+      configured-nvim-deps
+
       # FROM NIXPKGS
       ripgrep
       curl
