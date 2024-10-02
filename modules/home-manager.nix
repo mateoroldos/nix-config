@@ -34,6 +34,7 @@
       zoxide
       lazygit
       nodePackages.prettier
+      just
       turso-cli
     ];
   };
