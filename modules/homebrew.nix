@@ -13,6 +13,8 @@ _: {
 
     masApps = {};
     casks = [
+      "docker"
+      "cleanmymac"
       "kitty"
     ];
     taps = [];
