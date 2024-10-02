@@ -46,6 +46,9 @@
   };
 
   programs = {
+    kitty = {
+      themeFile = "tokyo_night_night";
+    };
     starship = {
       enable = true;
       enableZshIntegration = true;
