@@ -14,6 +14,10 @@
     darwin.inputs.nixpkgs.follows = "nixpkgs";
 
     get-flake.url = "github:ursi/get-flake";
+
+      # Neovim flake
+    nvim.url = "github:mateoroldos/nvim.nix";
+    nvim.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
@@ -21,6 +25,7 @@
     darwin,
     nixpkgs,
     home-manager,
+    nvim,
     ...
   } @ inputs: {
     # Build darwin flake using:
@@ -29,6 +34,9 @@
       system = "aarch64-darwin";
       pkgs = import nixpkgs {
         system = "aarch64-darwin";
+        overlays = [
+          nvim.overlays.default
+        ];
       };
       modules = [
         ./modules/darwin.nix
