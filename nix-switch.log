@@ -1,0 +1,23 @@
+[K[Kbuilding the system configuration...
+trace: evaluation warning: lib.mdDoc will be removed from nixpkgs in 24.11. Option descriptions are now in Markdown by default; you can remove any remaining uses of lib.mdDoc.
+trace: evaluation warning: lib.mdDoc will be removed from nixpkgs in 24.11. Option descriptions are now in Markdown by default; you can remove any remaining uses of lib.mdDoc.
+these 12 derivations will be built:
+  /nix/store/d1jpybc56gnf7qi50s17m1r04wwphm7p-home-manager-path.drv
+  /nix/store/sg4mg4w7g47nlzr9g41ysnc32barvrr8-home-manager-fonts.drv
+  /nix/store/39sb47vd0hgpdmngzhrc5w83zxch86fa-hm_LibraryFonts.homemanagerfontsversion.drv
+  /nix/store/i2k2k3kibpj86bl22dkvj6xsx9spf51m-activation-script.drv
+  /nix/store/0wk9q2yp1y9nmyncjspcibgsa3rz2xmy-home-manager-applications.drv
+  /nix/store/n9w26k5hlw1b32p4i9isj6jh2zpkqgxh-home-manager-files.drv
+  /nix/store/vcpy70vr0rjciq68i4nxcym98zx4bn1a-home-manager-generation.drv
+  /nix/store/01x4911psdwcvb0bz2pc8xhzs5ky33dp-activation-mateoroldos.drv
+  /nix/store/3cnirar0f0x2yck4gasi8771p49svk8z-user-environment.drv
+  /nix/store/3hqf7rj2xab0hxc26gjm60nqr3h2bb5x-darwin-version.json.drv
+  /nix/store/6jl0xdll71zbv5wmbdn8j2linfmz53m5-etc.drv
+  /nix/store/7q121wvybm39lgvgsqacpnlxs6n4vzy9-darwin-system-24.11pre-git+darwin4.4b43b68.drv
+these 2 paths will be fetched (17.34 MiB download, 110.76 MiB unpacked):
+  /nix/store/dny99zpa68hs4mcmqqy7ak656sxj7yi8-degit-2.8.4
+  /nix/store/v3n0aslln8f8a6i3xmkb2d0d5s3bs75n-karabiner-elements-15.0.0
+building '/nix/store/3hqf7rj2xab0hxc26gjm60nqr3h2bb5x-darwin-version.json.drv'...
+copying path '/nix/store/v3n0aslln8f8a6i3xmkb2d0d5s3bs75n-karabiner-elements-15.0.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/dny99zpa68hs4mcmqqy7ak656sxj7yi8-degit-2.8.4' from 'https://cache.nixos.org'...
+error: interrupted by the user
