@@ -42,6 +42,7 @@
       karabiner-elements
       just
       turso-cli
+      starship
     ];
   };
 
