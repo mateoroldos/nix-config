@@ -5,7 +5,6 @@
     dotDir = ".config/zsh"; # Already prepends $HOME
 
     plugins = with pkgs; [
-      starship
     ];
 
     oh-my-zsh = {
