@@ -24,7 +24,7 @@
       vim
       tmux
     ];
-    systemPath = ["/opt/homebrew/bin" "/Users/mateoroldos/.npm-global/bin"];
+    systemPath = ["/opt/homebrew/bin" "/Users/mateoroldos/.npm"];
     pathsToLink = ["/Applications"];
   };
   # system.keyboard.enableKeyMapping = true;

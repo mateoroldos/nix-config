@@ -34,6 +34,8 @@
       zoxide
       lazygit
       nodePackages.prettier
+      degit
+      karabiner-elements
       just
       turso-cli
     ];
