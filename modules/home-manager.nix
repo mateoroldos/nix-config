@@ -46,10 +46,6 @@
   };
 
   programs = {
-    kitty = {
-      # Pick "name" from https://github.com/kovidgoyal/kitty-themes/blob/master/themes.json
-      theme = "Tokyo Night";
-    };
     starship = {
       enable = true;
       enableZshIntegration = true;
