@@ -1,6 +1,4 @@
 _: {
-  # Pick "name" from https://github.com/kovidgoyal/kitty-themes/blob/master/themes.json
-  theme = "Tokyo Night";
   xdg.configFile."kitty/kitty.conf".text = ''
     shell_integration zsh
     font_family MesloLGS Nerd Font
