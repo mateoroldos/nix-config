@@ -1,7 +1,7 @@
 _: {
   programs.kitty = {
     enable = true;
-    themeFile = "tokyo_night_night";
+    themeFile = "Catppuccin-Mocha";
   };
   xdg.configFile."kitty/kitty.conf".text = ''
     shell_integration zsh
