@@ -19,6 +19,8 @@ _: {
     ];
     taps = [];
     # CHECK NIX FIRST!
-    brews = [];
+    brews = [
+      "awscli"
+    ];
   };
 }
