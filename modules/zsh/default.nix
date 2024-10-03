@@ -27,7 +27,7 @@
       reload = "source ~/.config/zsh/.zshrc";
       zed = "open -a /Applications/Zed.app -n";
       fnvim = "nvim $(fzf -m --preview='bat --color=always {}')";
-      fzfb = "fzf -m --preview='bat --color=always'";
+      fzfb = "fzf --preview='bat --color=always'";
     };
 
     initExtraBeforeCompInit = ''
