@@ -280,11 +280,11 @@
         "telescope-helpgrep-nvim": "telescope-helpgrep-nvim"
       },
       "locked": {
-        "lastModified": 1727875812,
-        "narHash": "sha256-MCuccNGfNEvsfWiFe1bAzHiLxW17uLjSyu04+amJhgw=",
+        "lastModified": 1727924337,
+        "narHash": "sha256-3b13toTGUXHZIjAXAaLbbdHXEGdMTrLCEP1/7VQ2l24=",
         "owner": "mateoroldos",
         "repo": "nvim.nix",
-        "rev": "e091d93a8a85a37c3f12eb84bd442569bffd2b52",
+        "rev": "e762e4b9643c27deed300284628c080d25e4c150",
         "type": "github"
       },
       "original": {
