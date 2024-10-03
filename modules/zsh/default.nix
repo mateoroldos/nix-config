@@ -26,6 +26,7 @@
       gbsc = "git branch --sort=-committerdate";
       reload = "source ~/.config/zsh/.zshrc";
       zed = "open -a /Applications/Zed.app -n";
+      fnvim = "nvim $(fzf -m --preview='bat --color=always {}')";
     };
 
     initExtraBeforeCompInit = ''
