@@ -7,6 +7,7 @@
     ./git.nix
     ./zsh
     ./tmux.nix
+    ./starship.nix
     ./kitty.nix
   ];
 
@@ -30,7 +31,6 @@
       ripgrep
       curl
       less
-      eza
       git
       nodejs_22
       wifi-password
@@ -41,15 +41,10 @@
       karabiner-elements
       just
       turso-cli
-      starship
     ];
   };
 
   programs = {
-    starship = {
-      enable = true;
-      enableZshIntegration = true;
-    };
     eza = {
       enable = true;
       enableZshIntegration = true;
