@@ -6,6 +6,8 @@
 
     terminal = "kitty";
 
+    shortcut = "space";
+
     plugins = with pkgs; [
       tmuxPlugins.better-mouse-mode
       tmuxPlugins.vim-tmux-navigator
@@ -38,7 +40,7 @@
     ];
 
     extraConfig = ''
-      # Mouse works as expecte
+      # Mouse works as expected
       set-option -g mouse on
     '';
   };
