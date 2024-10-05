@@ -42,6 +42,9 @@
     extraConfig = ''
       # Mouse works as expected
       set-option -g mouse on
+
+      base-index 1
+      renumber-windows on
     '';
   };
 }
