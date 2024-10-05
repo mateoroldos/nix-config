@@ -27,6 +27,15 @@
       configured-nvim
       configured-nvim-deps
 
+      # fenix
+      (fenix.complete.withComponents [
+        "cargo"
+        "clippy"
+        "rust-src"
+        "rustc"
+        "rustfmt"
+      ])
+
       # FROM NIXPKGS
       ripgrep
       curl
