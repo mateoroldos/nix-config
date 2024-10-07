@@ -50,6 +50,7 @@
       karabiner-elements
       just
       turso-cli
+      bun
       pnpm
     ];
   };
