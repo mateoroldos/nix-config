@@ -10,6 +10,8 @@
 
     plugins = with pkgs; [
       tmuxPlugins.better-mouse-mode
+      tmuxPlugins.resurrect
+      tmuxPlugins.continuum
       tmuxPlugins.vim-tmux-navigator
       {
         plugin = tmuxPlugins.catppuccin;
@@ -48,6 +50,8 @@
 
       set -g base-index 1
       set -g renumber-windows on
+
+      set -g @continuum-restore 'on'
     '';
   };
 }
