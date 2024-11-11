@@ -51,6 +51,7 @@
       just
       turso-cli
       bun
+      poetry
       pnpm
       poetry
     ];
