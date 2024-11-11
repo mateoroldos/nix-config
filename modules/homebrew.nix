@@ -16,6 +16,7 @@ _: {
       "docker"
       "cleanmymac"
       "kitty"
+      "python"
     ];
     taps = [];
     # CHECK NIX FIRST!

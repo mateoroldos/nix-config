@@ -52,6 +52,7 @@
       turso-cli
       bun
       pnpm
+      poetry
     ];
   };
 
