@@ -54,6 +54,8 @@
       poetry
       pnpm
       poetry
+      azure-functions-core-tools
+      postgresql
     ];
   };
 
