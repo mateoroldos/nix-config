@@ -52,7 +52,6 @@
       turso-cli
       bun
       pnpm
-      poetry
       azure-functions-core-tools
       pyenv
       postgresql
