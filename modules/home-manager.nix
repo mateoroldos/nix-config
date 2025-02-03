@@ -51,7 +51,6 @@
       just
       turso-cli
       bun
-      poetry
       pnpm
       poetry
       azure-functions-core-tools
