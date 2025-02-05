@@ -52,7 +52,6 @@
       turso-cli
       bun
       pnpm
-      azure-functions-core-tools
       postgresql
     ];
   };
