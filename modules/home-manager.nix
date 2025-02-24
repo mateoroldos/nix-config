@@ -51,7 +51,7 @@
       just
       turso-cli
       bun
-      pnpm
+      nodejs_22.pkgs.pnpm
       postgresql
     ];
   };
